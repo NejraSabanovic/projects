@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+
+
+#logo-container  {
+   width: 45%;
+   height: auto;
+   border-radius: 50%;
+}
+
+ul.nav a:hover { color: #8e8d8d !important; }
+
+
+.nav-link: hover{
+  text-decoration: none;
+  color: #8e8d8d;
+}
+
+._item{
+ color: #8e8d8d;
+ font-family: 'Roboto Mono', monospace;
+}
+ 
+}
+
+._item: hover{
+  color: black;
+}
+.nav-item{
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+.one{
+  height: 100%;
+  width: 100%
+}
+
+.card-img-top{
+  height: 15rem;
+}
+
+hr,p{
+   font-family: 'Roboto Mono', monospace;
+}

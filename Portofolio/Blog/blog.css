@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+#logo-container  {
+   width: 20%;
+   height: auto;
+   border-radius: 50%;
+}
+
+
+.nav-item{
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (max-width : 768px) {
+   .navbar {
+       display: inline-block;
+       float: left;
+    }
+   }
+
+._bar{
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;  
+  background-repeat:no-repeat;
+  
+  height: 100%;
+
+}
+.nav-link: hover{
+  text-decoration: none;
+  color: #8e8d8d;
+}
+
+._item{
+ color: black;
+ font-family: 'Roboto Mono', monospace;
+}
+
+.title_h1{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.--title{
+  font-family: 'Playfair Display', serif;
+}
+
+.title-hover{
+  text-decoration:none;
+  color: black;
+}
+
+.a:hover{
+  color: gray;
+}
+.date,
+.main_text{
+  font-family: 'Roboto Mono', monospace;
+
+}
+h4 > a:hover{
+  color: gray;
+}

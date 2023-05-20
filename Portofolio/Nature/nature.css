@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+
+
+.pic{
+	width: 100%;
+  
+}
+.one{
+height: 100%;
+width:100%;
+
+}
+
+#logo-container  {
+   width: 45%;
+   height: auto;
+   border-radius: 50%;
+}
+
+ul.nav a:hover { color: #8e8d8d !important; }
+
+._bar{
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;
+  background-image: url("lines.jpg");
+  background-repeat:no-repeat;
+  
+  height: 100%;
+
+}
+
+.nav-link: hover{
+  text-decoration: none;
+  color: #8e8d8d;
+  color: black;
+}
+
+._item{
+  font-size: 17px;
+ color: #8e8d8d;
+  font-family: 'Roboto Mono', monospace;
+}
+
+._item a: hover{
+  color: black;
+}
+.nav-item{
+  font-size: 17px;
+  color: #8e8d8d;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.nav_item a:hover{
+  color: red;
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .10s ease;
+  background-color: #e5e0e0;
+}
+
+.one:hover .overlay {
+  opacity: 10;
+}
+
+.text {
+  color:black;
+  font-size: 15px;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+
+  top: 85%;
+  right: 5%;
+  left: 0%
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+#logo-container  {
+   width: 20%;
+   height: auto;
+   border-radius: 50%;
+}
+
+
+@media only screen and (max-width : 768px) {
+   .navbar {
+       display: inline-block;
+       float: left;
+    }
+   }
+
+
+.title_h1{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.--title{
+  font-family: 'Playfair Display', serif;
+}
+
+.title-hover{
+  text-decoration:none;
+  color: #8e8d8d;
+}
+
+
+.date,
+.main_text{
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.podnaslovi{
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 4rem;
+
+
+}
+
+._bar{
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+  height: 100%;
+}
+
+._item{
+ color: #8e8d8d;
+}
+
+.nav-item{
+  font-size: 17px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+aside{
+
+   width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+table{
+  border-style: solid;
+  border-color: gray;
+}
+
+.details{
+   font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  display: block;
+
+}
+
+.details > a{
+  text-decoration-line: none;
+  color: #8e8d8d;
+}
+.details > a:hover{
+  color: black;
+}
+
+section > ol a:hover{
+  color: black;
+}
+
+section > ol a:visited{
+  color:  #AD6497;
+}
+
+section > ol a:active{
+  color: #B6769D;
+}
+
+article > a:hover{
+  color: black;
+}
+
+section > a:visited{
+  color: #AD6497;
+}
+
+section > a:active{
+  color: #B6769D;
+}
