@@ -1,0 +1,77 @@
+body{
+    font-family: 'Electrolize', sans-serif;
+    background-color: bisque;
+    background-image: url("../photos/triangles.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-blend-mode: normal;
+
+}
+
+.container{
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+
+.button-55 {
+    align-self: center;
+    background-color: black;
+    background-image: none;
+    background-position: 0 60%;
+    background-repeat: repeat no-repeat;
+    background-size: 2px 3px;
+    border-radius: 15px 255px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #9B2168;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+
+  .heading{
+    color: #9B2168;
+    text-shadow: #9B2168;
+    font-size: 30px;
+}
+
+.heading2{
+    color: #9B2168;
+    text-shadow: #9B2168;
+    font-size: 40px;
+}
+
+a:link{
+  text-decoration: none;
+  color: #9B2168;
+}
+a:visited{
+  text-decoration: none;
+  color: #9B2168;
+}

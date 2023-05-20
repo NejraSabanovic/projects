@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+  <link rel="icon" type="image/x-icon" href="../photos/favicon.ico">
+
+	<link rel="stylesheet" href="../css/mainBoard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Playfair+Display&display=swap'); </style>
+
+
+   
+</head>
+<body style="background-color:black">
+
+  <div style="padding-left: 1rem;">
+    <a href="../html/start.html" style="color: #9B2168;"> <i class="fa fa-caret-left" style="font-size:48px;"></i></a>
+     </div>
+     
+      <div class="d-flex justify-content-center" >
+        <div class="p2">
+      <canvas id="myCanvas" style="border: 1px solid; " width = "500" height = "500"></canvas>
+    </div>
+  </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="p2 ">
+        <p type = "text" id="textPlay" style="letter-spacing: 8px; color: #9B2168; font-size: 25px;">NOW PLAYING</p>
+      </div>
+      <div class="p2 ">
+      <p type="text" id="playerName" style = "background-color: black; letter-spacing: 5px; color: #9B2168; font-size: 25px; padding-left: 2rem;"></p>
+    </div>
+
+    <div>
+      
+        <button class="button-55" id ="playAgain" role="button" onclick="again()">PLAY AGAIN</button>
+    
+    </div>
+    
+  </div>
+     
+      
+      <script src="../js/triangle.js"></script>
+      
+	
+</body>
+</html>
